@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    background-color: #ff4655;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ff4655;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#container{
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px 20px
+}
+
+.social-links h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links a {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #616161;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color:  #ff4655;
+}
+
+.social-links a svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    fill: currentColor;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover svg {
+    transform: scale(1.2);
+}
